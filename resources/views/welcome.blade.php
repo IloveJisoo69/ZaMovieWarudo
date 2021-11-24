@@ -127,6 +127,12 @@
                     </div>
                 </div>
             </div>
+
+            <div class='content'>
+                <div id='example'></div>
+            </div>
         </div>
     </body>
 </html>
+
+<script type='text/javascript' src='js/app.js'></script>

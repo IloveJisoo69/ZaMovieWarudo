@@ -6,14 +6,8 @@ import './app.css';
 const Header = () => {
 
     return (
-        <div class = "Header">
-            <img class="logo" src={logo}/>
-            <div>
-                <ul class = "nav">
-                    <li>Now Showing</li>
-                    <li>Upcoming Movies</li>
-                </ul>
-            </div>
+        <div className = "Header">
+            <img className="logo" src={logo}/>
         </div>
     );
 }

@@ -14,6 +14,8 @@
                         </div>
                     @endif
 
+                    <!-- https://medium.com/fabcoding/laravel-redirect-users-according-to-roles-and-protect-routes-bde324fe1823 -->
+
                     {{ __('You are logged in!') }}
                 </div>
             </div>

@@ -1,21 +1,14 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.app')
 
-        <title>Laravel</title>
+@section('header')
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css" >
+<link href="/css/app.css" rel="stylesheet" type="text/css" >
+@endsection
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-        <link href="{{asset('css/app.css')}}" rel="stylesheet">
+@section('content')
+<div id="home">
+</div>
 
-    </head>
-
-    <body>
-        <div id="home">
-        </div>
-        <script src="/js/app.js"></script>
-    </body>
-</html>
-
-<script type='text/javascript' src='js/app.js'></script>
+<script src="js/app.js"></script>
+@endsection

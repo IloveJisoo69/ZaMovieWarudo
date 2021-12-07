@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import logo from './logo.png';
-import './app.css';
+import '../css/app.css'
 
 const Header = () => {
 
     return (
-        <div class = "Header">
-            <img class="logo" src={logo}/>
+        <div className="Header">
+            {/* <img className="logo" src={logo}/> */}
             <div>
-                <ul class = "nav">
+                <ul className="nav">
                     <li>Now Showing</li>
                     <li>Upcoming Movies</li>
                 </ul>
@@ -20,6 +20,3 @@ const Header = () => {
 
 export default Header;
 
-if (document.getElementById('header')) {
-    ReactDOM.render(<Header />, document.getElementById('header'));
-}

@@ -23,12 +23,12 @@ Edits made:
 - edited login and register controllers
 
 Things we still need to do:
- [ ] Implement ticket booking system
- [ ] Implement movie adding system
-     [ ] adding, edit, and delete movies
- [ ] storage linking in order to access photos uploaded
- [ ] Style the website
- [ ] Add the appropriate tabs for each user type
+- [ ] Implement ticket booking system
+- [ ] Implement movie adding system
+      - [ ] adding, edit, and delete movies
+- [ ] storage linking in order to access photos uploaded
+- [ ] Style the website
+- [ ] Add the appropriate tabs for each user type
 
 How to test and run our application:
 - git clone our url

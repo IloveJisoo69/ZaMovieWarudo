@@ -25,7 +25,7 @@ Edits made:
 Things we still need to do:
 - [ ] Implement ticket booking system
 - [ ] Implement movie adding system
-      - [ ] adding, edit, and delete movies
+- [ ] adding, edit, and delete movies
 - [ ] storage linking in order to access photos uploaded
 - [ ] Style the website
 - [ ] Add the appropriate tabs for each user type

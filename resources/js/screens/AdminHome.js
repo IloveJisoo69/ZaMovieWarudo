@@ -1,12 +1,12 @@
 import React, { Fragment } from 'react';
 import ReactDOM from 'react-dom';
-import Header from '../components/Header';
+import HomeHeader from '../headers/HomeHeader';
 import Movies from '../components/Movies';
 
 function AdminHome() {
   return (
     <div>
-      <Header/>
+      <HomeHeader/>
       <Movies/>
     </div>
   );

@@ -1,13 +1,13 @@
 import React, { Fragment } from 'react';
 import ReactDOM from 'react-dom';
-import Header from '../components/Header';
+import HomeHeader from '../headers/HomeHeader';
 import Movies from '../components/Movies';
 
 function Home() {
   return (
     <div>
-      <Header/>
-      <Movies/>
+      <HomeHeader/>
+      {/* <Movies/> */}
     </div>
   );
 }

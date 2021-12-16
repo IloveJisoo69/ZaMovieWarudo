@@ -12,6 +12,6 @@ require('./bootstrap');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-require('./screens/Home');
-require('./screens/AdminHome');
+require('./screens/GuestRoutes');
+require('./screens/AdminRoutes');
 require('./screens/UserHome');

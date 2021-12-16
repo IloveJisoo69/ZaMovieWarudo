@@ -7,7 +7,7 @@
 @endsection
 
 @section('content')
-<div id="home">
+<div id="guestRoutes">
 </div>
 
 <script src="js/app.js"></script>

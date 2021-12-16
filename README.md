@@ -1,10 +1,10 @@
-Change Log 0.2
+Change Log 0.3
 
 Changes Made:
-- In the home page, the css adjustments were made 
-
-Fixes:
-- Fixed bugs that wouldn't allow javascript to work as intended 
+- Added the routes for the guest 
+- Edited the files to match the guest so its not that confusing
+- Moved the admin files to the admin folder so its easily distinguishable
+- Renamed a couple of files to make sure they are meant for the admin
 
 Things we still need to do:
 - [ ] Implement ticket booking system

@@ -15,6 +15,8 @@
                     @endif
 
                     <!-- https://medium.com/fabcoding/laravel-redirect-users-according-to-roles-and-protect-routes-bde324fe1823 -->
+                    <!-- https://stackoverflow.com/questions/24277443/laravel-foreach-loop-in-controller
+                    https://stackoverflow.com/questions/53428303/multiple-api-resources-in-one-call-using-laravel -->
 
                     {{ __('You are logged in!') }}
                 </div>

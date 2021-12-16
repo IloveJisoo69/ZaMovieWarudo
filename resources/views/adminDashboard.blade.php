@@ -7,8 +7,8 @@
 @endsection
 
 @section('content')
-<div id="adminHome">
+<div id="adminRoutes">
 </div>
 
-<script src="js/app.js"></script>
+<script src="{{ asset('js/app.js') }}"></script>
 @endsection

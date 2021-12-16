@@ -30,6 +30,7 @@
         "materialize-css": "^1.0.0-rc.2",
         "react-bootstrap": "^2.0.3",
         "react-icons": "^4.3.1",
+        "react-router-dom": "^6.1.1",
         "react-script-tag": "^1.1.2",
         "react-scroll-horizontal": "^1.6.6"
     }

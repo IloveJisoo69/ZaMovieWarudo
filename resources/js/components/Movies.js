@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 import '../css/app.css';
+import { useNavigate } from 'react-router-dom';
 
-const Movies = () => {
+const Movies = (props) => {
   const movies = [
     {image:"/interstellar.jpg"},
     {image:"/joker.jpg"},
@@ -13,6 +14,7 @@ const Movies = () => {
 
   const [current, setCurrent] = useState(0);
   const length = movies.length;
+  const navigate = useNavigate();
 
   const nextSlide = () => {
     setCurrent(current === length - 1 ? 0 : current + 1);
@@ -26,6 +28,11 @@ const Movies = () => {
     setCurrent(index);
   }
 
+  const movieMove = () => {
+    navigate(props.nav);
+    console.log("I got clicked !");
+  }
+
   return (
     <section className='slider'>
       <FaArrowAltCircleLeft className='left-arrow' onClick={prevSlide} />
@@ -37,7 +44,7 @@ const Movies = () => {
             key={index}
           >
             {index === current && (
-              <img src={slide.image} alt='travel image' className='movieimage' />
+              <img src={slide.image} alt='travel image' className='movieimage' onClick={movieMove} />
             )}
           </div>
         );

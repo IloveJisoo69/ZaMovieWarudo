@@ -1,3 +1,11 @@
+Change Log 0.2
+
+Changes Made:
+- In the home page, the css adjustments were made 
+
+Fixes:
+- Fixed bugs that wouldn't allow javascript to work as intended 
+
 Change Log 0.1
 
 Changed many file structures

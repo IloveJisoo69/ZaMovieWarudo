@@ -7,3 +7,4 @@
 require('./components/Movies');
 require('./components/Header');
 require('./components/Home');
+require('./components/Schedule');

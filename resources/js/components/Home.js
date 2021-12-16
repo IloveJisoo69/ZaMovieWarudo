@@ -1,12 +1,13 @@
 import ReactDOM from 'react-dom';
 import Header from './Header';
 import Movies from './Movies';
+import Schedule from './Schedule';
 
 function Home() {
   return (
     <div>
       <Header/>
-      <Movies/>
+      <Schedule/>
     </div>
   );
 }

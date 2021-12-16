@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './app.css';
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom';
+import { Carousel } from 'react-responsive-carousel';
 
 const Showing = () => {
   const movies = [
@@ -10,7 +12,7 @@ const Showing = () => {
     {image:"/maleficent.jpg"},
     {image:"/starwars.jpg"},
   ];
-  
+
   const [current, setCurrent] = useState(0);
   const length = movies.length;
 
